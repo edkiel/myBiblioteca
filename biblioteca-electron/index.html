@@ -8,7 +8,7 @@
 <body>
   
     <header>
-        <h1> 📚 Mi Biblioteca Digital </h1>
+        <h1> 📚 Mi Biblioteca Digital Personal </h1>
       </header>
 
     <button id="mostrarFormularioBtn"> ➕ Agregar nuevo libro </button>
@@ -22,20 +22,9 @@
         <input type="text" id="imagen" placeholder="Ruta de la imagen de portada (opcional)">
         <button type="button" id="agregarLibroBtn">Agregar este libro que  estoy registrando</button>
     </form>
+
        <div id="librosContainer"></div> <!--en este espacio es donde se verán los libros-->
 <br>
-<br>
-    <div id="busqueda" style="display: flex;"> 
-        <input type="Búsqueda de Libros" placeholder="Ingrese el Críterio de Búsqueda">
-        <br>
-        <br>
-            <!-- Módulo de Búsqueda -->
-    <form id="moduloBusquedas" style="display:flex;">
-        <input type="text" id="Busqueda" placeholder="Buscar por título, autor o categoría">
-        <button type="submit" id="btnBusquedas">Buscar</button>
-    </form>
-    <br>
-    <br>
     <!-- Filtros -->
     <div id="filtros">
         <button onclick="verTodos()">Ver Todos</button>
@@ -45,31 +34,41 @@
     <br>
     <br>
     <ul id="searchResults"></ul>
-
-    <div id="librosContainer"></div>
     <br>
     <br>
     <!-- Controles de paginación -->
-    <div id="paginacion">
+    <div id="paginación">
         <button onclick="paginaAnterior()">⬅️ Anterior</button>
         <span id="paginaActual">1</span>
         <button onclick="paginaSiguiente()">➡️ Siguiente</button>
     </div>
     <br>
+
+<br>
+    <input id="busqueda" style="display: flex;"> 
+        <input type="Búsqueda de Libros" placeholder="Ingrese el Críterio de Búsqueda">
+        <br>
+        <br>
+        <!-- Módulo de Búsqueda 
+    <form id="moduloBusquedas" style="display:flex;">
+        <input type="text" id="Busqueda" placeholder="Buscar por título, autor o categoría">
+        <button type="submit" id="btnBusquedas">Buscar</button>
+    </form>
+-->
     <br>
-    </div>   
+    <br>
 
 
     <script src="script.js"></script>
 <br>
 <br>
 <br>
+
     <footer>
-        <p>© 2025 - Evidencia ADSO</p>
+        <p>© 2025 - Personal Proyect</p>
         <p>Edisson Andres Taborda Reyes</p>
         <p>edkiel9991@gmail.com</p>
-    
-      </footer>
+          </footer>
 
 </body>
 </html>
