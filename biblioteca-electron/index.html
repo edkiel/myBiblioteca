@@ -25,6 +25,15 @@
 
        <div id="librosContainer"></div> <!--en este espacio es donde se verán los libros-->
 <br>
+
+   <!-- Controles de paginación -->
+   <div id="paginación">
+    <button onclick="paginaAnterior()">⬅️ Anterior</button>
+    <span id="paginaActual">1</span>
+    <button onclick="paginaSiguiente()">➡️ Siguiente</button>
+</div>
+<br>
+
     <!-- Filtros -->
     <div id="filtros">
         <button onclick="verTodos()">Ver Todos</button>
@@ -36,25 +45,17 @@
     <ul id="searchResults"></ul>
     <br>
     <br>
-    <!-- Controles de paginación -->
-    <div id="paginación">
-        <button onclick="paginaAnterior()">⬅️ Anterior</button>
-        <span id="paginaActual">1</span>
-        <button onclick="paginaSiguiente()">➡️ Siguiente</button>
-    </div>
-    <br>
+ 
 
 <br>
-    <input id="busqueda" style="display: flex;"> 
-        <input type="Búsqueda de Libros" placeholder="Ingrese el Críterio de Búsqueda">
         <br>
         <br>
-        <!-- Módulo de Búsqueda 
+        <!--Módulo de Búsqueda -->
     <form id="moduloBusquedas" style="display:flex;">
         <input type="text" id="Busqueda" placeholder="Buscar por título, autor o categoría">
         <button type="submit" id="btnBusquedas">Buscar</button>
     </form>
--->
+
     <br>
     <br>
 

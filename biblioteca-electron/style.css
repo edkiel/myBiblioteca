@@ -18,6 +18,9 @@ button {
     cursor: pointer;
     font-size: 15px;
     border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 form {
@@ -92,6 +95,7 @@ header {
     padding: 1em;   /* Aqui modifico el tamaño del cabezal, que tengo en color azul  */
     text-align: center;  /* Aqui modifico la alineacion de los elementos, solo del cabezal   */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
   }
 
 /*
@@ -121,16 +125,18 @@ header {
 }
 
 #paginacion {
-    margin-top: 10px;
-    margin-left: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    margin: top 2%;
+    margin: left 1px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 1px;
+    align-content:center;
+    text-align:center;
 }
 
 #paginaActual {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: bold;
 }
 
