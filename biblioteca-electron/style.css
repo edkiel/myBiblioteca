@@ -6,11 +6,11 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 button {
-    background-color: #333baf;
+    background-color: #2e3a59;
     border:brown;
     color:#ffffff;
     padding: 10px 16px;
@@ -27,7 +27,7 @@ form {
     max-width: 500px;
     margin: auto;
     padding: 15px;
-    background-color: #9896f8;
+    background-color: #6c6b80;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -65,6 +65,86 @@ input {
 
 .botones {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-top: 10px;
 }
+/*     */
+#busqueda {
+    display:flex;
+    background-color: #2e3a59; /*     */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 11px;  /*   el padding (relleno) es el espacio que se crea entre el borde de un elemento y su contenido interno. 
+                            Es como un cojín alrededor del contenido, separándolo del borde del elemento.    */
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    justify-content: center;
+    gap: 18px;
+    height:25px;
+
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1em;   /* Aqui modifico el tamaño del cabezal, que tengo en color azul  */
+    text-align: center;  /* Aqui modifico la alineacion de los elementos, solo del cabezal   */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+/*
+header {
+    background: #2e3a59;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+*/
+
+  #moduloBusquedas {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#searchResults li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#searchResults li:last-child {
+    border-bottom: none;
+}
+
+#paginacion {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#paginaActual {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+#filtros {
+    margin-top: 5px;
+    display:inherit;
+    justify-content:center;
+    gap: 15px;
+    align-items:center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 7px;
+    background: #ddd;
+    border-radius: 8px;
+  }
