@@ -68,19 +68,3 @@ window.addEventListener('DOMContentLoaded', async () => {
     const libros = await ipcRenderer.invoke('leer-libros');
     libros.forEach(libro => mostrarLibro(libro));
 });
-
-
-#moduloBusquedas {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-#searchResults li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-#searchResults li:last-child {
-    border-bottom: none;
-}
