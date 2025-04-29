@@ -1,0 +1,98 @@
+[
+  {
+    "titulo": "Probados",
+    "autor": "Hermes Tavera Bueno",
+    "descripcion": "Personajes biblicos que fueron probados en su mayordomia",
+    "categoria": "Mayordomia",
+    "ruta": "E:\\777-\\biblioteca-electron\\libros\\Probados.pdf",
+    "imagen": "E:\\777-\\biblioteca-electron\\portadas\\01-probados.jpg"
+  },
+  {
+    "titulo": "Apocalipsis:sus revelaciones",
+    "autor": "C. Marvin. Maxwell",
+    "descripcion": "Dios se interesa por nosotros",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\31-Apocalipsis_CMervinMaxwell.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\apocalipsis-sus-revelaciones-marvin-maxwell.jpg"
+  },
+  {
+    "titulo": "La Revelación de Jesucristo",
+    "autor": "Ranko Stefanovic",
+    "descripcion": "Comentario del libro del Apocalipsis",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\La Revelacion-De-Jesucristo-Ranko Stefanovic.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\La Revelacion-De-Jesucristo-Ranko Stefanovic.jpg"
+  },
+  {
+    "titulo": "Secretos del Apocalipsis",
+    "autor": "Jacques Doukhan",
+    "descripcion": "El Apocalipsis visto a través de ojos hebreos",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\02-secretos del apocalipsis.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\secretos del apocalipsis.jpg"
+  },
+  {
+    "titulo": "Las Profecías del Fin",
+    "autor": "Hans K. LaRondelle",
+    "descripcion": "Enfoque Contextual Biblico",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Las Profecias del Fin(2).pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\Las-profecias-del-fin-Hans-LaRondell.jpg"
+  },
+  {
+    "titulo": "Las Siete Claves del Apocalipsis",
+    "autor": "Jon Paulien",
+    "descripcion": "Siete llaves para entender el libro profético del Apocalipsis",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Las Siete Claves del Apocalipsis-Jon Paulien.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\las-siete-claves-jon-paulien.jpg"
+  },
+  {
+    "titulo": "El Futuro del Mundo Revelado en el Apocalipsis",
+    "autor": "Loron Wade",
+    "descripcion": "El futuro del mundo revelado en el libro de apocalipsis comentario por Dr. Wade en idioma español",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Loron Wade - El futuro del mundo revelado en el Apocalipsis (1990).pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\El-futuro-del-mundo-revelado-en-el-apocalipsis-loron-wade.jpg"
+  },
+  {
+    "titulo": "Interpretación Historica del Libro de Apocalipsis",
+    "autor": "Maximo Vicuña A.",
+    "descripcion": "Lo que Todo Cristiano Debe Saber Antes del Fin",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Máximo Vicuña - Interpretación histórica del libro de Apocalipsis (2000).pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\interpretacion-historica-del-libro-de-apocalipsis-maximo-vicuna.jpg"
+  },
+  {
+    "titulo": "Estudios Selectos de Interpretación Profética",
+    "autor": "William Shea",
+    "descripcion": "Serie de la Comision de Estudios Sobre Daniel y El Apocalipsis TOMO 1",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\SHEA, Whilliam - Estudios selectos sobre interpretacion profetica.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\Estudios-selectos-interpretacion-profetica-William-Shea.jpg"
+  },
+  {
+    "titulo": "Estudios Selectos de Interpretación Profética",
+    "autor": "William Shea",
+    "descripcion": "Serie de la Comision de Estudios Sobre Daniel y El Apocalipsis TOMO 1",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\SHEA, Whilliam - Estudios selectos sobre interpretacion profetica.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\Estudios-selectos-interpretacion-profetica-William-SheaV2.jpg"
+  },
+  {
+    "titulo": "Apocalipsis",
+    "autor": "Merling Alomía",
+    "descripcion": "mensaje Misericordioso y oportuno",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Apocalipsis by Merling Alomia.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\Apocalipsis-merling-alomia.jpg"
+  },
+  {
+    "titulo": "Comentario-al-Libro-de-Apocalipsis",
+    "autor": "Antolin Diestre Gil",
+    "descripcion": "Victoria Versus Crisis Tibieza y Perpetuación en el Apocalipsis",
+    "categoria": "Profecía",
+    "ruta": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\Comentario-Al-Libro-de-Apocalipsis-Antolin-Diestre-Gil.pdf",
+    "imagen": "E:\\04 - ADDE LECTURA AL\\00-APOCALIPSIS\\01-PORTADAS-APOCALIPSIS\\Comentario-al-libro-de-apocalipsis-Antolin-diestre-gil.jpg"
+  }
+]

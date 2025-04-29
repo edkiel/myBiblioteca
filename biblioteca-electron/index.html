@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📚 Mi Biblioteca Digital</h1>
+
+    <button id="mostrarFormularioBtn"> ➕ Agregar nuevo libro </button>
+
+    <form id="nuevoLibroForm" style="display:flex;">
+        <input type="text" id="titulo" placeholder="Título del libro" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+        <input type="text" id="descripcion" placeholder="Descripción" required>
+        <input type="text" id="categoria" placeholder="Categoría" required>
+        <input type="text" id="ruta" placeholder="Ruta del archivo PDF (Ej: E:\\777-\\biblioteca-electron\\libros\\Probados.pdf)" required>
+        <input type="text" id="imagen" placeholder="Ruta de la imagen de portada (opcional)">
+        <button type="button" id="agregarLibroBtn">Agregar este libro que  estoy registrando</button>
+    </form>
+       <div id="librosContainer"></div> <!--en este espacio es donde se verán los libros-->
+
+    <div id="busqueda" style="display: flex;"> 
+        <input type="Búsqueda de Libros">
+
+    </div>   
+
+
+    <script src="script.js"></script>
+</body>
+</html>

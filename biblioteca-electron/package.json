@@ -1,0 +1,34 @@
+{
+  "name": "biblioteca-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  },
+"scripts": {
+  "start": "electron .",
+  "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "build": {
+  "appId": "com.biblioteca.electron",
+  "productName": "BibliotecaElectron",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "biblioteca.ico"
+  }
+}
+
+}
+
