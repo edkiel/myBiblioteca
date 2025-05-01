@@ -143,16 +143,12 @@ header {
 
 #filtros {
     margin-top: 7px;
-    display:inherit;
+    display:flex;
     justify-content:center;
     gap: 15px;
     align-items:center;
-<<<<<<< HEAD
-    margin-left: 640px;
-    align-content: center   ;
-=======
-    margin-left:  750px;
->>>>>>> MyLibrotecaV1
+    margin-left:center;
+    align-content:center;
 }
 
 footer {
