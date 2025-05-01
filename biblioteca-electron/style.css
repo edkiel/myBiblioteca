@@ -126,11 +126,11 @@ header {
 
 #paginacion {
     margin: top 2%;
-    margin: left 1px;
+    margin-left: center;
     display:flex;
     justify-content:center;
     align-items:center;
-    gap: 1px;
+    gap: 12px;
     align-content:center;
     text-align:center;
 }
@@ -138,6 +138,7 @@ header {
 #paginaActual {
     font-size: 28px;
     font-weight: bold;
+    margin-left: center;
 }
 
 #filtros {
@@ -146,13 +147,13 @@ header {
     justify-content:center;
     gap: 1.5px;
     align-items:center;
-    margin-left: 600px;
+    margin-left:  750px;
 }
-
 
 footer {
     text-align: center;
     padding: 7px;
-    background: #ddd;
+    background:#2c3e50;
     border-radius: 8px;
+    color: #f8f9fa;
   }
